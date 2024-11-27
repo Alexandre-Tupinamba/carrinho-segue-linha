@@ -114,7 +114,7 @@ void moveForward() {
 void turnLeft() {
   motor_esq.run(BACKWARD);
   motor_dir.run(FORWARD);
-  motor_esq.setSpeed(50); 
+  motor_esq.setSpeed(90); 
   motor_dir.setSpeed(255);
 }
 
@@ -122,5 +122,5 @@ void turnRight() {
   motor_esq.run(FORWARD);
   motor_dir.run(BACKWARD);
   motor_esq.setSpeed(255); 
-  motor_dir.setSpeed(50);
+  motor_dir.setSpeed(90);
 }
